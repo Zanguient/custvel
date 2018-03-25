@@ -3,9 +3,8 @@
 namespace App\Helpers;
 
 /**
-* Helper class
-*/
-class Helper {
-
-
+ * Helper class.
+ */
+class Helpers
+{
 }
