@@ -1,7 +1,7 @@
 {
-    "name": "laravel/laravel",
-    "description": "The Laravel Framework.",
-    "keywords": ["framework", "laravel"],
+    "name": "peterbrinck/custvel",
+    "description": "A custom installation of the Laravel Framework.",
+    "keywords": ["framework", "laravel", "custom", "uikit"],
     "license": "MIT",
     "type": "project",
     "require": {
