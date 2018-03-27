@@ -1,4 +1,4 @@
-<p align="center"><img src="https://peterbrinck.dk/logo-custvel.svg"></p>
+<p align="center"><a href="https://github.com/peterbrinck/custvel"><img src="https://peterbrinck.dk/logo-custvel.svg"></p></a>
 
 <p align="center">
 <a href="https://travis-ci.org/peterbrinck/custvel"><img src="https://api.travis-ci.org/peterbrinck/custvel.svg" alt="Build Status"></a>
