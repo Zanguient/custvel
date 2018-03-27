@@ -1,7 +1,7 @@
 <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 
 <p align="center">
-<a href="https://travis-ci.org/peterbrinck/custvel"><img src="https://api.travis-ci.org/peterbrinck/laravel.svg" alt="Build Status"></a>
+<a href="https://travis-ci.org/peterbrinck/custvel"><img src="https://api.travis-ci.org/peterbrinck/custvel.svg" alt="Build Status"></a>
 <a href="https://packagist.org/packages/peterbrinck/custvel"><img src="https://poser.pugx.org/peterbrinck/custvel/d/total.svg" alt="Total Downloads"></a>
 <a href="https://packagist.org/packages/peterbrinck/custvel"><img src="https://poser.pugx.org/peterbrinck/custvel/license.svg" alt="License"></a>
 </p>
