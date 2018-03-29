@@ -10,7 +10,7 @@
 
                     <h2>Login</h2>
 
-                    <form class="uk-form-stacked" role="form" method="POST" action="{{ route('login') }}">
+                    <form class="uk-form-stacked" role="form" method="POST" action="{{ route('frontend.login') }}">
                         @csrf
 
                         <div>
@@ -41,7 +41,7 @@
 
                         <div class="uk-margin">
                             <button class="uk-button uk-button-primary" type="submit" name="button">Login</button>
-                            <a class="uk-float-right" href="{{ route('password.request') }}">
+                            <a class="uk-float-right" href="{{ route('frontend.password.request') }}">
                                 Forgot Your Password?
                             </a>
                         </div>

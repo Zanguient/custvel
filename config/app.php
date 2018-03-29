@@ -209,8 +209,8 @@ return [
         'Validator'    => Illuminate\Support\Facades\Validator::class,
         'View'         => Illuminate\Support\Facades\View::class,
 
-        'User'   => App\Models\User::class,
-        'Helper' => App\Helper::class,
+        'User'         => App\Models\User::class,
+        'Helpers'      => App\Helpers::class,
 
     ],
 

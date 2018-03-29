@@ -10,7 +10,11 @@
 
                     <h2>Register</h2>
 
-                    <div>
+                    <form class="uk-form-stacked" role="form" method="POST" action="{{ route('frontend.register') }}">
+
+                        @csrf
+
+                        <div>
                             <label class="uk-form-label">Name</label>
                             <input id="name" type="text" class="uk-input{{ $errors->has('name') ? ' uk-form-danger' : '' }}" name="name" value="{{ old('name') }}" required autofocus>
 
@@ -56,7 +60,7 @@
 
                         <div class="uk-margin">
                             <button class="uk-button uk-button-primary" type="submit" name="button">Register</button>
-                            <a class="uk-float-right" href="{{ route('login') }}">
+                            <a class="uk-float-right" href="{{ route('frontend.login') }}">
                                 Already have an account?
                             </a>
                         </div>

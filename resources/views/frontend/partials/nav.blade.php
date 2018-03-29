@@ -10,21 +10,21 @@
 	<div class="uk-navbar-right">
 		<ul class="uk-navbar-nav">
 			@if (Auth::guest())
-				<li><a href="{{ route('login') }}">Login</a></li>
-				<li><a href="{{ route('register') }}">Register</a></li>
+				<li><a href="{{ route('frontend.login') }}">Login</a></li>
+				<li><a href="{{ route('frontend.register') }}">Register</a></li>
 			@else
 				<li>
 					<a href="#">{{ Auth::user()->name }}</a>
 					<div class="uk-navbar-dropdown">
 						<ul class="uk-nav uk-navbar-dropdown-nav">
 							<li>
-								<a href="{{ route('logout') }}"
+								<a href="{{ route('frontend.logout') }}"
 									onclick="event.preventDefault();
 											 document.getElementById('logout-form').submit();">
 									Logout
 								</a>
 
-								<form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+								<form id="logout-form" action="{{ route('frontend.logout') }}" method="POST" style="display: none;">
 									{{ csrf_field() }}
 								</form>
 							</li>

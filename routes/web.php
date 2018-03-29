@@ -14,7 +14,7 @@
  * Namespaces indicate folder structure
  */
 Route::group(['namespace' => 'Frontend', 'as' => 'frontend.'], function () {
-    include_route_files(__DIR__.'/frontend/');
+    Helpers::include_route_files(__DIR__.'/frontend/');
 });
 
 /*
@@ -22,5 +22,5 @@ Route::group(['namespace' => 'Frontend', 'as' => 'frontend.'], function () {
  * Namespaces indicate folder structure
  */
 Route::group(['namespace' => 'Backend', 'prefix' => 'admin', 'as' => 'admin.', 'middleware' => 'role:admin'], function () {
-    include_route_files(__DIR__.'/backend/');
+    Helpers::include_route_files(__DIR__.'/backend/');
 });
